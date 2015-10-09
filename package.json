@@ -1,0 +1,29 @@
+{
+  "name": "name-crypt",
+  "version": "1.0.0",
+  "description": "Utility class that encrypts and decrypts names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/index.test.js",
+    "watch": "mocha src/index.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecancino/name-crypt.git"
+  },
+  "keywords": [
+    "names",
+    "encrypt",
+    "decrypt"
+  ],
+  "author": "Eduardo Cancino <eduardo.cancino@ciudadde.mx> (http://github.com/ecancino)",
+  "license": "MIT",
+  "homepage": "https://github.com/ecancino/name-crypt",
+  "dependencies": {
+    "memory-cache": "0.1.4"
+  },
+  "devDependencies": {
+    "chai": "3.3.0",
+    "mocha": "2.3.3"
+  }
+}
