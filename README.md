@@ -4,3 +4,4 @@ Utility class that encrypts and decrypts names
 
 - npm install
 - npm run test
+- npm run docs
