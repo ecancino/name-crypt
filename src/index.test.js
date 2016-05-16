@@ -1,16 +1,16 @@
 /* globals describe, it */
-var nameCrypt = require('./index.js'),
+var nameCrypt = require('./index.js').default,
     expect = require('chai').expect;
 
 describe('name-crypt', function() {
-
+    
     describe('properties', function() {
         it('It should have a encrypt method', function() {
-            expect(nameCrypt).to.have.ownProperty('encrypt');
+            expect(nameCrypt).to.have.property('encrypt');
         });
 
         it('It should have a decrypt method', function() {
-            expect(nameCrypt).to.have.ownProperty('decrypt');
+            expect(nameCrypt).to.have.property('decrypt');
         });
 
         it('It should have a cache property', function() {
